@@ -35,13 +35,6 @@ To run SkillSwap locally, follow these steps:
 3. For Nodemailer, you should know how to obtain the app password.
 4. Familiarity with working on Node.js and React projects is required.
 
-### Clone the Repo
-
-```bash
-git clone https://github.com/HarshSharma20503/SkillSwap
-cd SkillSwap
-```
-
 ### Frontend Setup
 
 ```bash
