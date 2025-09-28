@@ -23,9 +23,11 @@ ARG VITE_LOCALHOST
 #write the environment variables to a .env file
 RUN echo "VITE_LOCALHOST=${VITE_LOCALHOST}" > .env
 
+
 RUN cat .env
 
 EXPOSE 5173
 
 # Run the frontend development server
+
 CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
