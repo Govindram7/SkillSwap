@@ -1,3 +1,4 @@
+// import {dotenv} from "dotenv";
 import { generateJWTToken_email, generateJWTToken_username } from "../utils/generateJWTToken.js";
 import passport from "passport";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
@@ -22,6 +23,7 @@ passport.use(
     }
   )
 );
+
 
 export const googleAuthHandler = passport.authenticate("google", {
   scope: ["profile", "email"],
